@@ -4,7 +4,7 @@
   "description": "Advanced html to plain text converter",
   "main": "index.js",
   "scripts": {
-    "test": "mocha && eslint .",
+    "test": "mocha --timeout 10000 && eslint .",
     "example": "node ./example/html-to-text.js",
     "lint": "eslint .",
     "cover": "nyc --reporter=lcov --reporter=text-summary npm run test",
